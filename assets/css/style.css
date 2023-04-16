@@ -816,6 +816,7 @@ section {
 .doctors .member .member-img {
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .doctors .member .social {
@@ -927,178 +928,24 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Pricing
+# Resto Profile
 --------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #fff;
-  text-align: center;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+/* .main-resto {
   position: relative;
-  overflow: hidden;
-}
-
-.pricing h3 {
-  font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #777777;
-  background: #f8f8f8;
-}
-
-.pricing h4 {
-  font-size: 36px;
-  color: #dc3545;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #444444;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing ul li {
-  padding-bottom: 16px;
-}
-
-.pricing ul i {
-  color: #dc3545;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .btn-wrap {
-  margin: 20px -20px -20px -20px;
-  padding: 20px 15px;
-  background: #f8f8f8;
-  text-align: center;
-}
-
-.pricing .btn-buy {
-  background: #dc3545;
-  display: inline-block;
-  padding: 8px 35px 10px 35px;
-  border-radius: 4px;
-  color: #fff;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.pricing .btn-buy:hover {
-  background: #65c9cd;
-}
-
-.pricing .featured h3 {
-  color: #fff;
-  background: #dc3545;
-}
-
-.pricing .advanced {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
+} */
+.resto-banner {
+  position: relative;
   z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #dc3545;
-  color: #fff;
 }
-
-/*--------------------------------------------------------------
-# Frequently Asked Questioins
---------------------------------------------------------------*/
-.faq {
-  padding: 60px 0;
-}
-
-.faq .faq-list {
-  padding: 0;
-  list-style: none;
-}
-
-.faq .faq-list li {
-  border-bottom: 1px solid #d9f1f2;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-}
-
-.faq .faq-list .question {
-  display: block;
-  position: relative;
-  font-family: #dc3545;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 400;
-  padding-left: 25px;
-  cursor: pointer;
-  color: #32969a;
-  transition: 0.3s;
-}
-
-.faq .faq-list i {
-  font-size: 16px;
+.resto-profile-logo img {
   position: absolute;
-  left: 0;
-  top: -2px;
-}
-
-.faq .faq-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 25px;
-}
-
-.faq .faq-list .icon-show {
-  display: none;
-}
-
-.faq .faq-list .collapsed {
-  color: black;
-}
-
-.faq .faq-list .collapsed:hover {
-  color: #dc3545;
-}
-
-.faq .faq-list .collapsed .icon-show {
-  display: inline-block;
-  transition: 0.6s;
-}
-
-.faq .faq-list .collapsed .icon-close {
-  display: none;
-  transition: 0.6s;
+  left: 5%;
+  top: 75%;
+  z-index: 99;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
 }
 
 /*--------------------------------------------------------------
